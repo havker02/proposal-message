@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  color: mediumvioletred;
+  background-color: #8d8d99;
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+
+.floating {
+  left: 0px;
+  top: 0px;
+  height: 10rem;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+.background {
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+*/
+.floating {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 19px;
+  
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+  height: 340px;
+  justify-content: center;
+  
+}
+
+button {
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding: 3px;
+  height: 2.6rem;
+  width: 4rem;
+  border-radius: 12px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: 470;
+  font-size: 16px;
+  color: white;
+  background-color: #77ad1f;
+}
+
+.noBtn{
+  position: relative;
+  background-color: #eb5252;
+}
+
+.hidden{
+  display: none;
+}
